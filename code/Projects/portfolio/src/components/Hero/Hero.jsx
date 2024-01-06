@@ -4,13 +4,13 @@ import styles from "./Hero.module.css";
 
 function Hero() {
   return (
-     <section className = {styles.container}>
+     <section className = {styles.container} id = "home">
         <div className = {styles.content}>
-            <h1 className = {styles.title}>Hi, I'm Tanner</h1>
-        <p className = {styles.description}>I'm a full-stack developer with 5 years of experience using React and NodeJS. Reach out if you'd like to learn more!</p>
+            <h1 className = {styles.title}>Hi! I'm Tanner Macpherson</h1>
+        <p className = {styles.description}>I'm a student at UNC Chapel Hill pursuing a B.S. in Computer Science along with a B.A. in Hispanic Studies</p>
         <a href="mailto:tanner.macpherson3@gmail.com" className = {styles.contactBtn}>Contact Me</a>
         </div>
-        <img src={getImageUrl("hero/heroImage.png")} alt="Hero image of me" className = {styles.heroImg} />
+        <img src={getImageUrl("hero/headshot.jpg")} alt="Hero image of me" className = {styles.heroImg} />
         <div className = {styles.topBlur} />
         <div className = {styles.bottomBlur} /> 
       </section> 
